@@ -29,7 +29,7 @@ let cookiesArr = [], cookie = '', message;
 let helpAuthor = true;
 const randomCount = $.isNode() ? 20 : 5;
 
-newShareCodes = [{"inviteCode":"9puIu0gdJaPwVv4CX_8"},{"inviteCode":"95e6tE8fsWWsJMNv"},{"inviteCode":"eU9YNZXBHKlCgA29vQxo"}] //这里修改你的邀请码
+newShareCodes = [{"inviteCode":"9puIu0gdJaPwVv4CX_8"},{"inviteCode":"95e6tE8fsWWsJMNv"},{"inviteCode":"eU9YNZXBHKlCgA29vQxo"},{"inviteCode":"eU9YJr7DGophjyiHjihO"},{"inviteCode":"eU9YauXnZvkg9GaHzSUVgg"},{"inviteCode":"eU9Ya7rgbq4j92eHnXUThQ"},{"inviteCode":"eU9YNqXMJ4lelgyKtg15"},{"inviteCode":"9qaSuUwIsnSWJupHHMKPAajt"},{"inviteCode":"eU9Ya7_hY64gpz_dyXsTgw"},{"inviteCode":"Z0ppA7brCa14"},{"inviteCode":"ZUdtKK7t"},{"inviteCode":"eU9Yar2xYqgj8mbcmCUW0w"},{"inviteCode":"9oOGunEkv1CuJ-5xy3oR1w"},{"inviteCode":"aUNmMrvdPLUn9m4"}] //这里修改你的邀请码
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
     cookiesArr.push(jdCookieNode[item])
